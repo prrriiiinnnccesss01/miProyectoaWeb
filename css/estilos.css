@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&family=Prompt:wght@300;400;500&display=swap");
+html {
+  box-sizing: content-box;
+  height: auto;
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 0, 174);
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  padding: auto;
+  font-weight: 300;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.header-image {
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.navbar {
+  background-color: #7c00ca;
+  font-weight: 400;
+}
+
+header > div, main > div {
+  height: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Prompt", serif;
+  margin: 0;
+  font-weight: 500;
+}
+
+h2, p {
+  font-size: small;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 3em;
+  vertical-align: top;
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+h1,
+h3 {
+  line-height: 125%;
+}
+
+:root {
+  --bs-body-bg: #f9f3ff;
+}
+
+#preInstagram {
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+
+.container1 {
+  margin-top: 5rem;
+  align-items: center;
+}
+
+h3 {
+  font-size: 0.625rem;
+  letter-spacing: 5px;
+  margin-bottom: 3rem;
+}
+
+main {
+  height: 30vh;
+}
+
+section a {
+  font-size: 1.25em;
+  width: 37.5%;
+  display: block;
+  padding: 11.5px 0;
+  border-radius: 5px;
+}
+
+#segundoTitulo {
+  height: auto;
+}
+
+.custom-border {
+  border: 2px black;
+  align-items: center;
+}
+
+#myCarousel, #thirdImage {
+  height: auto;
+  width: auto;
+  padding-bottom: 40px;
+  transition: opacity 0.5s ease-out;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.contenedor h1 {
+  font-size: 2em;
+  margin-bottom: 0.25rem;
+}
+.contenedor p {
+  font-size: 0.9em;
+  width: 40em;
+}
+.contenedor h3 {
+  margin-bottom: 5rem;
+}
+.contenedor h1, .contenedor p {
+  text-align: center;
+}
+
+#firstImage {
+  border-bottom-right-radius: 4rem;
+}
+
+#secondImage {
+  border-bottom-left-radius: 4rem;
+}
+
+section {
+  color: black;
+  margin-top: 7rem;
+}
+
+#SendMail {
+  height: auto;
+  margin-top: 5px;
+  width: 100%;
+}
+
+footer {
+  background-color: #520078;
+  height: 10rem;
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 40px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
